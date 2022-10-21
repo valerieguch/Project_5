@@ -1,0 +1,76 @@
+@media (max-width: 1230px){
+	.nav-list{
+		display: none;
+	}
+	.nav-button{
+	display: block;
+	border: none;
+	background: none;
+	z-index: 10;
+	position: fixed;
+	top: 46px;
+	right: 40px;
+	}
+
+
+.nav.open .nav-list{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: white;
+	padding: 46px 38px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+	font-size: 34px;
+	font-weight: 600;
+}
+.nav-link.active{
+	color: black;
+}
+.nav-link{
+	color: gray;
+}
+
+.header-row{
+	flex-direction: column;
+	text-align: center;
+}
+
+.header-content{
+margin:  0 auto;
+
+
+}
+.header-img{
+	margin: 0 auto;
+}
+.servise{
+	display: block;
+	/*flex-wrap: wrap;*/
+    }
+ .project-img{
+ 	max-width: 300px;
+ }
+ .portfolio-title{
+	margin-bottom: 0px;
+}
+.header img{
+	max-width: 300px;
+
+}
+.header-img{
+	margin-bottom: -7px;
+
+}
+/*.servises-card-title{
+	font-weight: 600;
+font-size: 40px;
+}
+.servises-card-title-sub{
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 200%;
+}*/
